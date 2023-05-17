@@ -1,0 +1,10 @@
+[package]
+name = "connect"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+protobuf = "3.2.0"
+
+[lib]
+crate-type = ["lib"]

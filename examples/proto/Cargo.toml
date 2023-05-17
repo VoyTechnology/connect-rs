@@ -1,0 +1,11 @@
+[package]
+name = "proto"
+version = "0.0.1"
+edition = "2021"
+authors = ["Wojtek Bednarzak <wojtek.bednarzak@gmail.com"]
+
+[dependencies]
+protobuf = "3.2.0"
+connect = { path = "../../connect" }
+
+[lib]

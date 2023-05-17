@@ -1,0 +1,4 @@
+[package]
+name = "protoc-gen-connect-rs"
+version = "0.0.1"
+

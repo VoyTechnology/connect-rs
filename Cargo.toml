@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "connect",
+    "examples/proto",
+    "examples/ping",
+    "protoc-gen-connect-rs"
+]

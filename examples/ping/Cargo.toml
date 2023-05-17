@@ -1,0 +1,11 @@
+[package]
+name = "ping-example"
+version = "0.0.1"
+
+[dependencies]
+connect = { path = "../../connect" }
+proto = { path = "../proto" }
+
+[[bin]]
+name = "ping-server"
+path = "src/main.rs"
